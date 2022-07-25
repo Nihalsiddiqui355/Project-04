@@ -1,0 +1,129 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: serif;
+
+}
+
+/* =============================== */
+/* =========== NAVBAR   ========== */
+/* =============================== */
+
+.navbar-container {
+    /* border: 2px solid rgb(219, 11, 108); */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+}
+
+.list {
+    /* border: 2px solid rgb(253, 14, 14); */
+    display: flex;
+    align-items: center;
+    position: relative;
+    left: -55%;
+
+
+}
+
+.list-item {
+    text-decoration-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 5px 10px 5px;
+    padding: 5px 5px 5px 5px;
+    /* border: 2px solid saddlebrown; */
+    color: rgb(128, 128, 128);
+    font-weight: 300;
+    opacity: 0.8;
+}
+
+.list-item:hover{
+    color: #000000;
+}
+
+ul>li:nth-child(1) {
+    color: #000000;
+}
+
+
+
+nav>div>img {
+    /* border: 2px solid saddlebrown; */
+    width: 140px;
+    margin: 1px;
+    padding: 5px;
+    color: black;
+}
+
+
+nav>div>.nav-button {
+    position: relative;
+    padding: 11px 16px;
+    background-color: #5955B3;
+    border: 2px solid #5955B3;
+    color: #FFFF;
+    border-radius: 10px;
+}
+
+
+/* =============================== */
+/* =========== Banner  ========== */
+/* =============================== */
+
+
+.banner-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.heading-text {
+    position: relative;
+    left: 20%;
+    top: 14%;
+    font-size: 61px;
+    /* border: 2px solid  #5955B3; */
+    width: 400px;
+    color: #3C2F60;
+}
+
+.heading-text>span{
+    color: #5955B3;
+}
+.description {
+    /* border: 2px solid red; */
+    width: 320px;
+    position: relative;
+    left: 20%;
+    top: 20%;
+    font-weight: bold;
+    opacity: 0.9;
+}
+
+.btn {
+    position: relative;
+    left: 20%;
+    top: 28%;
+    padding: 0.5rem;
+    margin: 5px;
+    background-color: #5955B3;
+    border: 2px solid #5955B3;
+    color: #FFFF;
+    border-radius: 10px;
+    width: 160px;
+    height: 55px;
+    font-size: 15px;
+}
+
+
+.banner-container>div>img {
+    position: relative;
+    right: 0px;
+    left: 4.5%;
+    top: 5%;
+    height: 500px;
+    width: 650px;
+}
