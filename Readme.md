@@ -12,8 +12,8 @@
 
 > ## What l learned from this Project?
 
-- I learned about flex positioning.
-- I am also learned this project how give button border and color etc .
-- I am alos learned flot the element. 
+- I learned about flex box.
+- I am also learned this project how give nav positinnig.
+- I am also learned flot the element. 
 
 ## This Project took me around 4hrs to complete.
