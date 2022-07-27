@@ -3,7 +3,7 @@
 
 - By Nihal Siddiqui
 
-> live priview [Link]()
+> live priview [Link](https://edcompetition.netlify.app/)
 
 > Project Preview
 
